@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			:root {
+				--aqua: #38fffcff;
+				--mint-cream: #f4fffdff;
+				--oxford-blue: #011936ff;
+				--black-coral: #465362ff;
+			}
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				/* outline: 1px solid var(--mint-cream); */
+				border-radius: 5px;
+				font-family: 'Courier New', Courier, monospace;
+			}
+		</style>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%svelte.head%
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>
